@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ random_title }}
+{% endblock %}
+
+{% block body %}
+    {% if random_entry %}
+        <h1> {{ random_title }} </h1>
+        {{ random_entry }}
+        <br>
+    {% else %}
+        Requested page not found.
+    {% endif %}
+    <a href="{% url 'edit' title %}">Edit Entry</a>
+{% endblock %}
+
