@@ -1,15 +1,12 @@
 # wiki-web-app
 A Django web app that allows users to create, edit, and view wiki-style pages stored as Markdown files. 
 
-**A Django web application that allows users to create, edit, and view wiki-style pages stored as Markdown files.**
-
 ---
 
 ## Tech Stack
 - Python, Django  
 - HTML, CSS  
-- Markdown file storage for pages  
-- SQLite for any additional data storage  
+- Markdown file storage for pages   
 
 ---
 
@@ -35,7 +32,7 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-3. Run the Flask app:
+3. Run the Django server:
 ```bash
 python app.py
 ```
